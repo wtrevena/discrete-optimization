@@ -31,3 +31,36 @@ Solution count 1: 5
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 9.5.2 (win64) logging started Wed Sep 14 20:07:21 2022
+
+Set parameter LogFile to value "gurobi.log"
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 2 rows, 2 columns and 4 nonzeros
+Model fingerprint: 0xee8e5f77
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [2e+00, 5e+01]
+  Objective range  [6e-01, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 3e+02]
+Found heuristic solution: objective 5.0000000
+Presolve time: 0.00s
+Presolved: 2 rows, 2 columns, 4 nonzeros
+Variable types: 0 continuous, 2 integer (0 binary)
+
+Root relaxation: objective 5.073548e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0         5.00000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (1 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
